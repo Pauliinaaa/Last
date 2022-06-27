@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext">
+    <body>
+      <trans-unit id="label_actions">
+        <source>label_actions</source>
+        <target>Akcja</target>
+      </trans-unit>
+      <trans-unit id="label_id">
+        <source>label_id</source>
+        <target>Id</target>
+      </trans-unit>
+      <trans-unit id="label_name">
+        <source>label_name</source>
+        <target>Tytuł</target>
+      </trans-unit>
+      <trans-unit id="label_created_at">
+        <source>label_created_at</source>
+        <target>Utworzono</target>
+      </trans-unit>
+      <trans-unit id="label_updated_at">
+        <source>label_updated_at</source>
+        <target>Zaktualizowano</target>
+      </trans-unit>
+      <trans-unit id="label_content">
+        <source>label_content</source>
+        <target>Zawartość</target>
+      </trans-unit>
+      <trans-unit id="label_category">
+        <source>label_category</source>
+        <target>Kategoria</target>
+      </trans-unit>
+      <trans-unit id="message.empty_list">
+        <source>message.empty_list</source>
+        <target>Pusta lista.</target>
+      </trans-unit>
+      <trans-unit id="recipe_not_found">
+        <source>recipe_not_found</source>
+        <target>Nie znaleziono przepisu.</target>
+      </trans-unit>
+      <trans-unit id="title_recipes_list">
+        <source>title_recipes_list</source>
+        <target>LISTA PRZEPISÓW</target>
+      </trans-unit>
+      <trans-unit id="title_details_recipes">
+        <source>title_details_recipes</source>
+        <target>Podgląd przepisu</target>
+      </trans-unit>
+      <trans-unit id="back_to_the_list">
+        <source>back_to_the_list</source>
+        <target>POWRÓT DO LISTY</target>
+      </trans-unit>
+      <trans-unit id="view">
+        <source>view</source>
+        <target>PODGLĄD</target>
+      </trans-unit>
+      <trans-unit id="cookbook">
+        <source>cookbook</source>
+        <target>KSIĄŻKA KUCHARSKA</target>
+      </trans-unit>
+      <trans-unit id="login">
+        <source>login</source>
+        <target>ZALOGUJ SIĘ</target>
+      </trans-unit>
+      <trans-unit id="comments_label">
+        <source>comments_label</source>
+        <target>KOMENTARZE</target>
+      </trans-unit>
+      <trans-unit id="label_nick">
+        <source>label_nick</source>
+        <target>Nick</target>
+      </trans-unit>
+      <trans-unit id="label_email">
+        <source>label_email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="comment_add">
+        <source>comment_add</source>
+        <target>DODAJ KOMENTARZ</target>
+      </trans-unit>
+      <trans-unit id="title_comment_create">
+        <source>title_comment_create</source>
+        <target>STWÓRZ KOMENTARZ</target>
+      </trans-unit>
+      <trans-unit id="label_id_recipe">
+        <source>label_id_recipe</source>
+        <target>Id przepisu</target>
+      </trans-unit>
+      <trans-unit id="label_none">
+        <source>label_none</source>
+        <target>Wybierz</target>
+      </trans-unit>
+      <trans-unit id="content">
+        <source>content</source>
+        <target>Treść</target>
+      </trans-unit>
+      <trans-unit id="action_create">
+        <source>action_create</source>
+        <target>DODAJ</target>
+      </trans-unit>
+      <trans-unit id="action_back_to_list">
+        <source>action_back_to_list</source>
+        <target>POWRÓT DO LISTY</target>
+      </trans-unit>
+      <trans-unit id="action_save">
+        <source>action_save</source>
+        <target>ZAPISZ</target>
+      </trans-unit>
+      <trans-unit id="message_created_successfully">
+        <source>message_created_successfully</source>
+        <target>UTWORZONO POMYŚLNIE</target>
+      </trans-unit>
+      <trans-unit id="action.save">
+        <source>action.save</source>
+        <target>ZAPISZ</target>
+      </trans-unit>
+      <trans-unit id="action.delete">
+        <source>action.delete</source>
+        <target>USUŃ</target>
+      </trans-unit>
+      <trans-unit id="title.category_delete">
+        <source>title.category_delete</source>
+        <target>USUŃ KATEGORIĘ</target>
+      </trans-unit>
+      <trans-unit id="title.category_edit">
+        <source>title.category_edit</source>
+        <target>EDYTUJ KATEGORIĘ</target>
+      </trans-unit>
+      <trans-unit id="title_recipe_create">
+        <source>title_recipe_create</source>
+        <target>UTWÓRZ PRZEPIS</target>
+      </trans-unit>
+      <trans-unit id="title_category_list">
+        <source>title_category_list</source>
+        <target>LISTA KATEGORII</target>
+      </trans-unit>
+      <trans-unit id="title_category_create">
+        <source>title_category_create</source>
+        <target>UTWÓRZ KATEGORIĘ</target>
+      </trans-unit>
+      <trans-unit id="title_admin_edit">
+        <source>title_admin_edit</source>
+        <target>EDYTUJ DANE</target>
+      </trans-unit>
+      <trans-unit id="logout">
+        <source>logout</source>
+        <target>WYLOGUJ SIĘ</target>
+      </trans-unit>
+      <trans-unit id="edit">
+        <source>edit</source>
+        <target>EDYTUJ</target>
+      </trans-unit>
+      <trans-unit id="delete">
+        <source>delete</source>
+        <target>USUŃ</target>
+      </trans-unit>
+      <trans-unit id="title_details_category">
+        <source>title_details_category</source>
+        <target>Szczegóły kategorii</target>
+      </trans-unit>
+      <trans-unit id="category_not_found">
+        <source>category_not_found</source>
+        <target>Nie znaleziono kategorii.</target>
+      </trans-unit>
+      <trans-unit id="message_form_error">
+        <source>message_form_error</source>
+        <target>BŁĄD!</target>
+      </trans-unit>
+      <trans-unit id="log_in">
+        <source>log_in</source>
+        <target>ZALOGUJ SIĘ</target>
+      </trans-unit>
+      <trans-unit id="please_sign_in">
+        <source>please_sign_in</source>
+        <target>Zaloguj się</target>
+      </trans-unit>
+      <trans-unit id="email">
+        <source>email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="password">
+        <source>password</source>
+        <target>Hasło</target>
+      </trans-unit>
+      <trans-unit id="sign_in">
+        <source>sign_in</source>
+        <target>Zaloguj się</target>
+      </trans-unit>
+      <trans-unit id="label_new_email">
+        <source>label_new_email</source>
+        <target>Nowy email</target>
+      </trans-unit>
+      <trans-unit id="label_new_password">
+        <source>label_new_password</source>
+        <target>Nowe hasło</target>
+      </trans-unit>
+      <trans-unit id="label_new_password_repeat">
+        <source>label_new_password_repeat</source>
+        <target>Powtórz hasło</target>
+      </trans-unit>
+      <trans-unit id="label.name">
+        <source>label.name</source>
+        <target>Tytuł</target>
+      </trans-unit>
+      <trans-unit id="label.category">
+        <source>label.category</source>
+        <target>Kategoria</target>
+      </trans-unit>
+      <trans-unit id="label.none">
+        <source>label.none</source>
+        <target>WYBIERZ</target>
+      </trans-unit>
+      <trans-unit id="title_comment_delete">
+        <source>title_comment_delete</source>
+        <target>Usuń komentarz</target>
+      </trans-unit>
+      <trans-unit id="action_delete">
+        <source>action_delete</source>
+        <target>USUŃ</target>
+      </trans-unit>
+      <trans-unit id="title.category_create">
+         <source>title.category_create</source>
+         <target>Utwórz kategorię</target>
+      </trans-unit>
+      <trans-unit id="title_recipe_edit">
+        <source>title_recipe_edit</source>
+        <target>Edycja przepisu</target>
+      </trans-unit>
+      <trans-unit id="title_recipe_delete">
+        <source>title_recipe_delete</source>
+        <target>Usuń przepis</target>
+      </trans-unit>
+      <trans-unit id="message.created_successfully">
+        <source>message.created_successfully</source>
+        <target>UTWORZONO POMYŚLNIE</target>
+      </trans-unit>
+      <trans-unit id="message.edited_successfully">
+         <source>message.edited_successfully</source>
+         <target>ZEDYTOWANO POMYŚLNIE</target>
+      </trans-unit>
+      <trans-unit id="message.deleted_successfully">
+        <source>message.deleted_successfully</source>
+        <target>USUNIĘTO POMYŚLNIE</target>
+      </trans-unit>
+      <trans-unit id="message.category_contains_tasks">
+        <source>message.category_contains_tasks</source>
+        <target>DO KATEGORII SĄ PRZYPISANE PRZEPISY</target>
+      </trans-unit>
+      <trans-unit id="message_updated_successfully">
+        <source>message_updated_successfully</source>
+        <target>ZAKTUALIZOWANO POMYŚLNIE</target>
+      </trans-unit>
+      <trans-unit id="message.cant_be_deleted">
+         <source>message.cant_be_deleted</source>
+         <target>PRZEPIS NIE MOŻE ZOSTAĆ USUNIĘTY</target>
+      </trans-unit>
+      <trans-unit id="message.cant_be_Deleted">
+        <source>message.cant_be_Deleted</source>
+        <target>KATEGORIA NIE MOŻE ZOSTAĆ USUNIĘTA</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

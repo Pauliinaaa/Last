@@ -1,0 +1,68 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ 'title_details_category'|trans }}
+{% endblock %}
+
+{% block body %}
+    <body>
+    <div class="menu">
+        <h2>{{ 'cookbook'|trans }}</h2>
+        {% if is_granted('ROLE_ADMIN') %}
+            <div>
+                <h4><a href="{{ url('recipe_index') }}">{{ 'title_recipes_list'|trans }}</a></h4>
+            </div>
+            <div>
+                <h4><a href="{{ url('recipe_create') }}">{{ 'title_recipe_create'|trans }}</a></h4>
+            </div>
+            <div>
+                <h4><a href="{{ url('category_index') }}">{{ 'title_category_list'|trans }}</a></h4>
+            </div>
+            <div>
+                <h4><a href="{{ url('category_create') }}">{{ 'title_category_create'|trans }}</a></h4>
+            </div>
+            <div>
+                <h4><a href="{{ url('user_edit', {id: app.user.id}) }}">{{ 'title_admin_edit'|trans }}</a></h4>
+            </div>
+        {% else %}
+            <div>
+                <h4><a href="{{ url('recipe_index') }}">{{ 'title_recipes_list'|trans }}</a></h4>
+            </div>
+        {% endif %}
+        {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+            <div>
+                <h4><a href="{{ url('app_logout') }}">{{ 'logout'|trans }}</a></h4>
+            </div>
+        {% else %}
+            <div>
+                <h4><a href="{{ url('app_login') }}">{{ 'login'|trans }}</a></h4>
+            </div>
+        {% endif %}
+    </div>
+    <div class="content">
+        <h1>{{ 'title_details_category'|trans }}</h1>
+        {% if category is defined and category|length %}
+            <dl class="dl-horizontal">
+                <dt>{{ 'label_id'|trans }}</dt>
+                <dd>{{ category.id }}</dd>
+                <dt>{{ 'label_created_at'|trans }}</dt>
+                <dd>{{ category.createdAt|format_date('long') }}</dd>
+                <dt>{{ 'label_updated_at'|trans }}</dt>
+                <dd>{{ category.updatedAt|format_date('long') }}</dd>
+                <dt>{{ 'label_name'|trans }}</dt>
+                <dd>{{ category.name }}</dd>
+            </dl>
+            <p>
+                <a class="btn" href="{{ url('category_index') }}" title="back_to_the_list" role="button">
+                    {{ 'back_to_the_list'|trans }}
+                </a>
+            </p>
+        {% else %}
+
+            <p>
+                {{ 'category_not_found'|trans }}
+            </p>
+        {% endif %}
+    </div>
+    </body>
+{% endblock %}

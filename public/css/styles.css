@@ -1,0 +1,47 @@
+p {
+    color: red;
+}
+.menu {
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    background-image: url('img/tło1.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 50px;
+}
+
+.menu a {
+    float: left;
+    display: block;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.menu h2{
+    padding: 10px;
+}
+.menu a:hover {
+    background-color: black;
+    color: white;
+}
+.table {
+    background-color: #DCDCDC;
+}
+body {
+    background-image: url('img/tło.jpg');;
+    padding: 4px;
+}
+.content{
+    background-color: #F0EFEA;
+    padding: 50px;
+}
+.btn{
+    background-color: #FF8C00;
+    color:black;
+}
+.btn:hover{
+    background-color: darkgrey;
+}
